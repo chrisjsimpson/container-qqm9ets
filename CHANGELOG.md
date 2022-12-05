@@ -1,3 +1,16 @@
+# v0.0.2 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- update requirements ([@chrisjsimpson](https://github.com/chrisjsimpson))
+- save ChatGPT chats ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.1 (Mon Dec 05 2022)
 
 :tada: This release contains work from a new contributor! :tada:
