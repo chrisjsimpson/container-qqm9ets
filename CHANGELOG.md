@@ -1,3 +1,15 @@
+# v0.0.8 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- ability to actuallt read your saved chat from /chat/<id> ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.7 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
