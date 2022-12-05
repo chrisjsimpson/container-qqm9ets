@@ -1,3 +1,15 @@
+# v0.0.5 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- migrated over chrome extension and ui ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.4 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
