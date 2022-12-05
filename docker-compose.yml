@@ -1,0 +1,11 @@
+services:
+  app:
+    image: container-qqm9ets
+    build:
+      context: ./src
+    ports:
+      - "5000:5000"
+    volumes:
+      - type: bind
+        source: ./src/web
+        target: /usr/src/app
