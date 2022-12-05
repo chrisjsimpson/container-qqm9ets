@@ -24,9 +24,22 @@ function savePagePreview() {
 
   let body = document.body.innerText;
 
-  var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://container-qqm9ets.containers.anotherwebservice.com/save');
-  xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send(JSON.stringify({ body: body }));
-  alert("Saved chat thread, probably");
+	fetch('https://save-chatgpt.anotherwebservice.com/save', {
+		method: 'POST',
+		body: JSON.stringify({
+			body: body
+		}),
+		headers: {
+			'Content-Type': 'application/json'
+		}
+	})
+		.then(response => response.json())
+		.then(data => {
+			console.log(data);
+      let url = "https://save-chatgpt.anotherwebservice.com/chat/" + data['file_id'];
+      console.log("Opening: " + url);
+		  window.open(url);
+		});
+
+
 }

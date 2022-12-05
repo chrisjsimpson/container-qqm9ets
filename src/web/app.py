@@ -24,7 +24,7 @@ def save():
     filename = int(datetime.now().timestamp())
     with open(f"{CHATS_DIRECTORY}/{filename}", "w") as fp:
         fp.write(body)
-    return jsonify({"msg": f"wrote file: {filename}"})
+    return jsonify({"msg": f"wrote file: {filename}", "file_id": filename})
 
 
 def parse(filename):
@@ -38,7 +38,8 @@ def parse(filename):
 @app.route("/chat/<timestamp>")
 def show_chat(timestamp):
     path = Path(CHATS_DIRECTORY, timestamp).absolute()
-    return parse(path)
+    text = parse(path)
+    return render_template("show_chat.html", text=text)
 
 
 @app.route("/parse")
