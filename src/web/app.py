@@ -22,7 +22,7 @@ CHATS_DIRECTORY = os.getenv("CHATS_DIRECTORY", "./chats")
 def save():
     body = json.loads(request.data)["body"]
     filename = int(datetime.now().timestamp())
-    with open(f"{CHATS_DIRECTORY}{filename}", "w") as fp:
+    with open(f"{CHATS_DIRECTORY}/{filename}", "w") as fp:
         fp.write(body)
     return jsonify({"msg": f"wrote file: {filename}"})
 
