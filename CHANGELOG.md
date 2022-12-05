@@ -1,3 +1,15 @@
+# v0.0.7 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- titles are everything? ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.6 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
