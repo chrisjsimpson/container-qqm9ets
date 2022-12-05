@@ -1,3 +1,15 @@
+# v0.0.11 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Create LICENSE ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.10 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
