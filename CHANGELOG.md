@@ -1,3 +1,15 @@
+# v0.0.3 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- get CHATS_DIRECTORY from env ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.2 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
