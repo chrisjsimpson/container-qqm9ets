@@ -1,3 +1,15 @@
+# v0.0.4 (Mon Dec 05 2022)
+
+#### ⚠️ Pushed to `main`
+
+- path separators doh ([@chrisjsimpson](https://github.com/chrisjsimpson))
+
+#### Authors: 1
+
+- [@chrisjsimpson](https://github.com/chrisjsimpson)
+
+---
+
 # v0.0.3 (Mon Dec 05 2022)
 
 #### ⚠️ Pushed to `main`
