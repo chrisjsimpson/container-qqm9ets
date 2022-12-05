@@ -7,12 +7,15 @@ from pathlib import Path
 from db import get_db, close_db
 import sqlalchemy
 from logger import log
+from dotenv import load_dotenv
+
+load_dotenv(verbose=True)
 
 
 app = Flask(__name__)
 app.teardown_appcontext(close_db)
 cors = CORS(app, send_wildcard=True)
-CHATS_DIRECTORY = app.config.get("CHATS_DIRECTORY", "./chats/")
+CHATS_DIRECTORY = os.getenv("CHATS_DIRECTORY", "./chats")
 
 
 @app.route("/save", methods=["POST"])
