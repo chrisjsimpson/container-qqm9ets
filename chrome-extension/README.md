@@ -7,4 +7,4 @@ then, load the extension from the folder where you cloned this repo by goingto
 
 Note you'll have to have the flask app running in the background listening on 
 port `127.0.0.1:5000` to actually save the content.
-See https://github.com/KarmaComputing/save-ChatGPT-chats-automatically
+See main https://github.com/chrisjsimpson/container-qqm9ets README.md
